@@ -16,6 +16,11 @@ Check the admin scratchpad! `https://jupiter.challenges.picoctf.org/problem/5821
 
 Primero hacemos un intento de login en la pagina con el usuario de Admin y nos da acceso denegado, ponemos un usuario cualquiera y se genera una cookie que podemos editar en el JSON Web Tokens y editamos nuestro usuario cualquiera por el admin, despues utilizamos la herramienta de John the reapper para poder editar la encriptacion y asi nos da la contraseña en el JaWT.
 
+
+La bandera es la siguiente:
+
+picoCTF{jawt_was_just_what_you_thought_44c752f5}
+
 ```
 
 ## Referencias

@@ -12,7 +12,11 @@ Seems like the password is encrypted.
 
 ``` Bash
 
-Inspeccionamos la pagina y volvimos una linea en valor 1 para poder ver el query de SQL de la pagina, para que saliera entonces utilizamos el comando "admin';" para poder entrar
+Inspeccionamos la pagina y volvimos una linea en valor 1 para poder ver el query de SQL de la pagina,, al momento de inspeccionarla podemos notar que el resultado de poner la contraseña esta encriptado en ROT13, por lo que utilizaremos un encriptador para dar una contraseña trucada, la cual es ' be 1=1;
+
+' Al momento de registrarnos con esa contraseña nos daran la bandera la cual es:
+
+Your flag is: picoCTF{3v3n_m0r3_SQL_4424e7af}
 
 ```
 

@@ -12,7 +12,9 @@ The password is being filtered.
 
 ``` Bash
 
-Inspeccionamos la pagina y volvimos una linea en valor 1 para poder ver el query de SQL de la pagina, para que saliera entonces utilizamos el comando "admin';" para poder entrar
+Inspeccionamos la pagina y volvimos una linea en valor 1 para poder ver el query de SQL de la pagina, para que saliera entonces utilizamos el comando "admin';" para poder entrar, la bandera es:
+
+Your flag is: picoCTF{m0R3_SQL_plz_c34df170}
 
 ```
 
